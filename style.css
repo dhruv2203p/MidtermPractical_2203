@@ -1,0 +1,75 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background for contrast */
+    color: #333; /* Dark text color */
+}
+
+/* Form Styles */
+form {
+    width: 50%; /* Set a fixed width for the form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff; /* White background for form */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="number"],
+input[type="password"],
+textarea {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Button Styles */
+.btn, button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    padding: 10px 15px; /* Padding for buttons */
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Table Styles */
+table {
+    width: 80%; /* Set a fixed width for the table */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse; /* Merge borders of table cells */
+}
+
+th, td {
+    padding: 12px; /* Padding inside table cells */
+    text-align: left; /* Align text to the left */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Slightly darker on hover */
+}
+
+/* Link Styles */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Bootstrap link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
